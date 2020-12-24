@@ -15,6 +15,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  h1, h2, h3, h4, p, span {
+    margin: 0;
+  }
+
   a {
     color: #0070f3;
     text-decoration: none;

@@ -6,6 +6,10 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: center;
 
+  h2 {
+    margin-bottom: 12px;
+  }
+
   div {
     a + a {
       margin-left: 4px;

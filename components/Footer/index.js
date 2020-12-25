@@ -12,6 +12,7 @@ info.mailto = `mailto:${info.email}`;
 export default function Footer() {
   return (
     <Container>
+      <h2>Reach me!</h2>
       <div>
         <a href={info.github}><AiFillLinkedin size={32} color="#000" /></a>
         <a href={info.linkedin}><AiFillGithub size={32} color="#000" /></a>

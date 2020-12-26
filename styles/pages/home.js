@@ -14,3 +14,9 @@ export const Header = styled.header`
     color: #555;
   }
 `;
+
+export const Content = styled.div`
+  max-width: 600px;
+  margin-bottom: 24px;
+  display: flex;  
+`;

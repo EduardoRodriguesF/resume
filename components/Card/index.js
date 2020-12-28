@@ -1,10 +1,13 @@
+import Link from 'next/link';
 import { Container } from './styles';
 
-export default function Card({ title, description }) {
+export default function Card({ title, description, to }) {
   return (
-    <Container>
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </Container>
+      <Link href={to}>
+        <Container>
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </Container>
+      </Link>
   );
 }

@@ -16,9 +16,15 @@ export const Header = styled.header`
 `;
 
 export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+`;
+
+export const CardContainer = styled.div`
   max-width: 800px;
-  min-height: 285px;
-  margin-bottom: 24px;
+  margin: 2rem 0 3rem;
   display: flex;
   flex-wrap: wrap;
   align-items: space-between;

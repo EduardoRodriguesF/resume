@@ -16,7 +16,20 @@ export const Header = styled.header`
 `;
 
 export const Content = styled.div`
-  max-width: 600px;
+  max-width: 800px;
+  min-height: 285px;
   margin-bottom: 24px;
-  display: flex;  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: space-between;
+
+  div {
+    flex: 1 1 45%;
+    height: 130px;
+  }
+
+  div + div {
+    margin-left: 12px;
+  }
 `;

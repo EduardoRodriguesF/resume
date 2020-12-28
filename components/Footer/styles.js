@@ -5,6 +5,7 @@ export const Container = styled.footer`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 24px;
 
   h2 {
     margin-bottom: 12px;

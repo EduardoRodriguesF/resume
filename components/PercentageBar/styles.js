@@ -17,7 +17,9 @@ export const Percentage = styled.div`
 `;
 
 export const Bar = styled.div`
-  width: 200px;
+  display: flex;
+  flex: 1;
+  width: 280px;
   height: 12px;
   background-color: #e8e8e8;
   border-radius: 6px;

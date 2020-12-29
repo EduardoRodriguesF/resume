@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { FiArrowLeft } from 'react-icons/fi'
 
 import { Container } from './styles';
@@ -6,9 +5,9 @@ import { Container } from './styles';
 export default function GoBackButton() {
   return (
     <Container>
-      <Link href="/">
+      <a href="javascript:history.back()">
         <FiArrowLeft size={36} color="#a0a0a0" />
-      </Link>
+      </a>
     </Container>
   )
 }

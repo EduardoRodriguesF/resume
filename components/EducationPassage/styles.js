@@ -7,7 +7,9 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  padding: 62px 0;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 64px 0;
 
   img {
     max-width: 200px;
@@ -28,7 +30,9 @@ export const Details = styled.div`
   }
 
   p {
+    margin-top: 12px;
     text-align: justify;
+    color: #222;
   }
 `;
 

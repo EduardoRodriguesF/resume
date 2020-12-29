@@ -4,7 +4,7 @@ export const Container = styled.div`
   max-width: 240px;
   border: 1px solid #7a7a7a;
   border-radius: 12px;
-  padding: 18px 24px;
+  padding: 18px 24px 22px;
   cursor: pointer;
   transition: all 0.3s;
 

@@ -32,10 +32,19 @@ export const CardContainer = styled.div`
 
   div {
     flex: 1 1 45%;
-    height: 130px;
+    height: auto;
   }
 
   div + div {
     margin-left: 12px;
+  }
+
+  @media (max-width: 760px) {
+    flex-direction: column;
+
+    div + div {
+      margin-left: 0;
+      margin-top: 12px;
+    }
   }
 `;

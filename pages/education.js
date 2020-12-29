@@ -17,7 +17,7 @@ export default function Education() {
           Starting on February 5, I will be studying at Unisanta University. 
         </EducationPassage>
         <EducationPassage title="Fullstack course" date={2020} done src="/gostack.png" alt="Gostack Bootcamp">
-          As I continued to study more and more, exploring all sorts of courses via Udemy and other websites like that, I ended up participating on <b>Next Level Week #3</b>, where I developed a simple orphanage finding page.
+          As I continued to study more and more, exploring all sorts of courses via Udemy and other websites like that, I ended up participating on <b>Next Level Week #3</b>, where I developed a simple orphanage finding page called <a href="https://github.com/EduardoRodriguesF/happy">Happy</a>.
           After that, I got interested in the paid course Gostack, where I have been studying until some weeks ago and learned a lot about: <br /> 
           <ul>
             <li>TypeScript</li>

@@ -18,7 +18,7 @@ export default function Home() {
         <CardContainer>
           <Card title="Skills" description="My competences and technologies I use." to="/skills" />
           <Card title="Education" description="Where and how I've been studying." to="/education" />
-          {/*<Card title="Experience" description="My previous jobs and projects." to="/experience" />*/}
+          <Card title="Experience" description="My previous jobs and projects." to="/experience" />
         </CardContainer>
       </Content>
     </Layout>

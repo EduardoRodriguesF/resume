@@ -8,7 +8,7 @@ export const Content = styled.div`
 
   section {  
     & + section { 
-      margin-top: 56px;
+      margin-top: 86px;
     }
 
     h3 {

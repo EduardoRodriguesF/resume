@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -52,11 +52,14 @@ export const Line = styled.div`
   height: 100%;
 
   hr {
+    position: absolute;
     border: 2px solid ${({ done }) => done ? '#0070f3' : '#c7c7c7'};
+    background-color: ${({ done }) => done ? '#0070f3' : '#c7c7c7'};
     width: 1px;
-    height: 100%;
+    height: 102%;
     padding: 0;
     margin: 0;
+    border-radius: 50px;
   }
 `;
 
@@ -70,8 +73,8 @@ export const TimeLabel = styled.span`
 
 export const Circle = styled.div`
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background: ${({ done }) => done ? '#0070f3' : '#c7c7c7'};
   border-radius: 5px;
 `;

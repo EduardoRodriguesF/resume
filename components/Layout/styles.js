@@ -10,6 +10,7 @@ const fadeIn = keyframes`
 `;
 
 export const Content = styled.div`
+  position: relative;
   animation: .6s ${fadeIn} ease-out;
   width: 100%;  
   display: flex;

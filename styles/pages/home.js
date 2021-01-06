@@ -4,7 +4,7 @@ export const Header = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 24px;
+  padding: 24px 24px 0;
 
   h1 {
     margin-top: 14px;
@@ -24,7 +24,7 @@ export const Content = styled.div`
 
 export const CardContainer = styled.div`
   max-width: 800px;
-  margin: 2rem 0 3rem;
+  margin: 1.4rem 0 3rem;
   display: flex;
   flex-wrap: wrap;
   align-items: space-between;

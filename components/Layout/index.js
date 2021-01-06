@@ -11,6 +11,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         <title>Eduardo Rodrigues</title>
+        <meta name="description" content="Front-end developer" />
       </Head>
       <GlobalStyle />
       <Content>{children}</Content>

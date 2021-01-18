@@ -71,13 +71,13 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 920px) {
     > div {
-      width: 250px;
+      max-width: 325px;
     }
 
     &:nth-child(even) > div {
-      left: -270px;
+      left: -345px;
     }
   }
 

@@ -1,81 +1,110 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
-export const Container = styled.div`
-  display: flex;
-  width: 100%;
-`;
-
-export const Content = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 64px 0;
-
-  img {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 0 100px 100px 0;
-  }
-`;
-
-export const Details = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  max-width: 800px;
-  margin-left: 24px;
-
-  span {
-    color: #555;
-  }
-
-  p {
-    margin-top: 12px;
-    text-align: justify;
-    color: #222;
-  }
-`;
-
-export const Timeline = styled.div`
+export const Container = styled.li`
+  list-style-type: none;
   position: relative;
-  z-index: 99;
-  display: flex;
-  align-items: center;
-`;
+  width: 5px;
+  padding-top: 64px;
+  background: #0070F3;
 
-export const Line = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-
-  hr {
+  &::after {
+    content: '';
     position: absolute;
-    border: 2px solid ${({ done }) => done ? '#0070f3' : '#c7c7c7'};
-    background-color: ${({ done }) => done ? '#0070f3' : '#c7c7c7'};
-    width: 1px;
-    height: 102%;
-    padding: 0;
-    margin: 0;
-    border-radius: 50px;
+    left: 50%;
+    bottom: -1px;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 15px;
+    background: inherit;
+  }
+
+  > div { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; 
+    width: 400px;
+    padding: 15px 32px;
+    background: #fff;
+    border: 2px solid #0070F3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    span {
+      color: #333;
+    }
+
+    p {
+      margin-top: 18px;
+      text-align: justify;
+      font-size: 0.8rem;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 3px;
+      width: 24px;
+      height: 2px;
+      background: #0070F3;
+    }
+  }
+
+  &:nth-child(even) > div {
+    left: -420px;
+    
+    &::before {
+      right: -24px;
+    }
+  }
+
+  &:nth-child(odd) > div {
+    margin-left: 24px;  
+      
+    &::before {
+      left: -24px;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    > div {
+      max-width: 325px;
+    }
+
+    &:nth-child(even) > div {
+      left: -345px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &::after {
+      visibility: hidden;
+    }
+
+    > div {
+      width: calc(100vw - 64px);
+    }
+    
+    &:nth-child(odd) > div {
+      margin-left: 0;
+    }
+
+    &:nth-child(even) > div {
+      left: 0px;
+    }
+
+    > div::before {
+      visibility: hidden;
+    }
   }
 `;
-
-export const TimeLabel = styled.span`
-  width: 120px;
-  padding-right: 20px;
-  text-align: right;
-  color: #757575;
-  font-weight: 300;
-`;
-
-export const Circle = styled.div`
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  background: ${({ done }) => done ? '#0070f3' : '#c7c7c7'};
-  border-radius: 5px;
-`;
-

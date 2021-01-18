@@ -9,7 +9,6 @@ import { Container, Content, Skillset } from '../styles/pages/skills';
 export default function Skills() {
   return (
     <Layout>
-      <GoBackButton />
       <Container>
         <Content>
           <Skillset>

@@ -11,7 +11,6 @@ import { Content } from '../styles/pages/education';
 export default function Education() {
   return (
     <Layout>
-      <GoBackButton />
       <Content>
         <EducationPassage title="Information Systems (Bachelor)" date="2021 – 2025" src="/unisanta.jpeg" alt="Unisanta">
           Starting on February 5, I will be studying at Unisanta University. 

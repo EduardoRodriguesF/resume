@@ -27,7 +27,6 @@ const team = {
 export default function Experience() {
   return (
     <Layout>
-      <GoBackButton />
       <Content>
         <section>
           <Image width="142" height="90" src="/firstrocket.svg" alt="First Rocket"/>

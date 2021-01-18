@@ -34,7 +34,7 @@ export default function Education() {
           Not stopping there, the course is constantly getting updates. Rocketseat announced a revamped course, <b>Ignite</b>, in <b>March 2021</b>, which I am already excited to take.
           <br/><br/><FiAward size={16} /> <Link href="/gostack-certificate.pdf">Certificate</Link>
         </EducationPassage>
-        <EducationPassage title="Information Systems (Bachelor)" date="2021 – 2025" src="/unisanta.jpeg" alt="Unisanta">
+        <EducationPassage title="Information Systems (Bachelor)" date="2021 – 2025">
           Starting on February 5, I will be studying at Unisanta University. 
         </EducationPassage>
       </Content>

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.li`
   list-style-type: none;
   position: relative;
   width: 5px;

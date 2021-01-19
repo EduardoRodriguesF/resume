@@ -24,7 +24,8 @@ export const Container = styled.li`
     flex-direction: column;
     justify-content: center;
     position: relative; 
-    width: 400px;
+    width: 450px;
+    flex: 1;
     padding: 15px 32px;
     background: #fff;
     border: 2px solid #0070F3;
@@ -56,7 +57,7 @@ export const Container = styled.li`
   }
 
   &:nth-child(even) > div {
-    left: -420px;
+    left: -470px;
     
     &::before {
       right: -24px;
@@ -71,7 +72,7 @@ export const Container = styled.li`
     }
   }
 
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 1024px) {
     > div {
       max-width: 325px;
     }

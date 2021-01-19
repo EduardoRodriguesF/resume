@@ -5,11 +5,12 @@ export const Container = styled.li`
   position: relative;
   width: 5px;
   padding-top: 64px;
-  background: #0070F3;
+  background: ${({ done }) => done ? '#0070F3' : '#333'};
 
   &::after {
     content: '';
     position: absolute;
+    z-index: 999;
     left: 50%;
     bottom: -1px;
     transform: translateX(-50%);
@@ -28,7 +29,7 @@ export const Container = styled.li`
     flex: 1;
     padding: 15px 32px;
     background: #fff;
-    border: 2px solid #0070F3;
+    border: 2px solid ${({ done }) => done ? '#0070F3' : '#333'};;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
 
@@ -52,7 +53,7 @@ export const Container = styled.li`
       bottom: 3px;
       width: 24px;
       height: 2px;
-      background: #0070F3;
+      background: ${({ done }) => done ? '#0070F3' : '#333'};
     }
   }
 

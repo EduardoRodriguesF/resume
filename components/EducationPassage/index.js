@@ -3,9 +3,9 @@ import { Fade } from "react-awesome-reveal";
 
 import { Container } from './styles';
 
-export default function EducationPassage({ children, title, date, done, src, alt }) {
+export default function EducationPassage({ children, title, date, done }) {
   return (
-    <Container> 
+    <Container done={done}> 
       <Fade triggerOnce direction="down">
         <div>
           <h2>{title}</h2>

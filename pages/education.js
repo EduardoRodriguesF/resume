@@ -35,7 +35,7 @@ export default function Education() {
           <br/><br/><FiAward size={16} /> <Link href="/gostack-certificate.pdf">Certificate</Link>
         </EducationPassage>
         <EducationPassage title="Information Systems (Bachelor)" date="2021 – 2025">
-          Starting on February 5, I will be studying at Unisanta University. 
+          Starting on February 5, I will be studying at <b>Unisanta</b> University. 
         </EducationPassage>
       </Content>
     </Layout>

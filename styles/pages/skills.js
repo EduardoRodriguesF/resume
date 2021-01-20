@@ -10,7 +10,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   width: 100%;
   min-height: 100vh;
-  padding: 0 24px;
+  padding: 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

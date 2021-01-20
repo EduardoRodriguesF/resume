@@ -8,6 +8,10 @@ export const Header = styled.header`
 
   h1 {
     margin-top: 14px;
+
+    @media screen and (max-width: 420px) {
+      font-size: 28px;
+    }
   }
 
   p {

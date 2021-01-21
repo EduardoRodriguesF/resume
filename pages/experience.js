@@ -29,6 +29,15 @@ export default function Experience() {
     <Layout>
       <Content>
         <section>
+          <Image width="240" height="43" src="/liveu.webp" alt="Live University" />
+          <h3><b>Freelance • </b>March 2019 – April 2019</h3>
+          <p>
+            In the short period of a month, I developed a <b>calendar</b> for students' schedule using JavaScript and EJS integrating Node.js. 
+            Also helped in the tool to generate certificates, which I was responsible for making the certificate's
+            HTML and searching a library to handle its transpilation to PDF.
+          </p>
+        </section>
+        <section>
           <Image width="142" height="90" src="/firstrocket.svg" alt="First Rocket"/>
           <h3><b>Mega Hack 5.0 • </b>November 2020</h3>
           <p>
@@ -51,16 +60,6 @@ export default function Experience() {
             </ul>
           </p>
         </section>
-        <section>
-          <Image width="240" height="43" src="/liveu.webp" alt="Live University" />
-          <h3><b>Freelance • </b>March 2019 – April 2019</h3>
-          <p>
-            In the short period of a month, I developed a <b>calendar</b> for students' schedule using JavaScript and EJS integrating Node.js. 
-            Also helped in the tool to generate certificates, which I was responsible for making the certificate's
-            HTML and searching a library to handle its transpilation to PDF.
-          </p>
-        </section>
-        
       </Content>
     </Layout>
   );

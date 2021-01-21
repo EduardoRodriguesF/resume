@@ -8,6 +8,7 @@
     "dev": "next dev"
   },
   "dependencies": {
+    "json-loader": "^0.5.7",
     "next": "^10.0.4",
     "react": "^17.0.1",
     "react-awesome-reveal": "^3.7.0",

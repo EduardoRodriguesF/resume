@@ -5,24 +5,7 @@ import GoBackButton from '../components/GoBackButton';
 
 import { Content } from '../styles/pages/experience';
 
-const team = {
-  ferrari: {
-    name: 'Luís Ferrari',
-    link: 'https://www.linkedin.com/in/luisdferrari/',
-  },
-  lucca: {
-    name: 'Lucca Dias',
-    link: 'https://www.linkedin.com/in/lucca-dias-a09b61113/',
-  },
-  amanda: {
-    name: 'Amanda Zanatta',
-    link: 'https://www.linkedin.com/in/amanda-zanatta-30a87a119/',
-  },
-  luiz: {
-    name: 'Luiz Araujo',
-    link: 'https://www.linkedin.com/in/araujoluiz/',
-  },
-}
+import { team } from '../infos.json';
 
 export default function Experience() {
   return (
@@ -53,10 +36,7 @@ export default function Experience() {
 
             As we're talking about a <b>hackaton</b>, I did not work alone! These are my team members: <br/>
             <ul>
-              <li><a href={team.ferrari.link}>{team.ferrari.name}</a> (Front-end)</li>
-              <li><a href={team.lucca.link}>{team.lucca.name}</a> (Back-end)</li>
-              <li><a href={team.amanda.link}>{team.amanda.name}</a> (UX/UI)</li>
-              <li><a href={team.luiz.link}>{team.luiz.name}</a> (MKT)</li>
+              {team.map(m => <li><a href={m.link}>{m.name}</a> ({m.role})</li>)}
             </ul>
           </p>
         </section>

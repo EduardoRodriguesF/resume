@@ -1,22 +1,18 @@
 import { Container } from './styles';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
-const info = {
-  github: 'https://github.com/EduardoRodriguesF',
-  linkedin: 'https://www.linkedin.com/in/eduardo-rodrigues-4b3624190/',
-  email: 'contato@edurodrigues.dev',
-};
+import { links } from '../../infos.json';
 
-info.mailto = `mailto:${info.email}`;
+const mailto = `mailto:${links.email}`;
 
 export default function Footer() {
   return (
     <Container>
       <div>
-        <a href={info.github}><AiFillGithub size={32} color="#000" /></a>
-        <a href={info.linkedin}><AiFillLinkedin size={32} color="#000" /></a>
+        <a href={links.github}><AiFillGithub size={32} color="#000" /></a>
+        <a href={links.linkedin}><AiFillLinkedin size={32} color="#000" /></a>
       </div>
-      <a href={info.mailto}>{info.email}</a>
+      <a href={mailto}>{links.email}</a>
     </Container>
   );
 }

@@ -6,6 +6,9 @@ import PercentageBar from '../components/PercentageBar';
 
 import { Container, Content, Skillset } from '../styles/pages/skills';
 
+import { skills } from '../infos.json';
+const { front, soft, back } = skills;
+
 export default function Skills() {
   return (
     <Layout>
@@ -13,10 +16,7 @@ export default function Skills() {
         <Content>
           <Skillset>
             <h2>Front-end</h2>
-            <PercentageBar skill="CSS" fill="96" />
-            <PercentageBar skill="JavaScript" fill="86" />
-            <PercentageBar skill="TypeScript" fill="71" />
-            <PercentageBar skill="ReactJS" fill="78" />
+            {front.map(s => <PercentageBar skill={s.name} fill={s.percent} />)}
             <hr />
             <p>
               Since <b>2018</b> I have been studying through local and online <b>courses</b> and training my capacity with challenge and <b>problem solving</b> websites, like HackerRank and Codeacademy.
@@ -25,9 +25,7 @@ export default function Skills() {
 
           <Skillset>
             <h2>Softskills</h2>
-            <PercentageBar skill="Resilience" fill="87" />
-            <PercentageBar skill="Persistence" fill="92" />
-            <PercentageBar skill="Team work" fill="82" />
+            {soft.map(s => <PercentageBar skill={s.name} fill={s.percent} />)}
             <hr />
             <p>
               The difficulties of 2020 made me learn a lot about those skills, and that translated well for my programming life. <br />
@@ -37,8 +35,7 @@ export default function Skills() {
 
           <Skillset>
             <h2>Back-end</h2>
-            <PercentageBar skill="Node.js" fill="68" />
-            <PercentageBar skill="Postgres" fill="52" />
+            {back.map(s => <PercentageBar skill={s.name} fill={s.percent} />)}
             <hr />
             <p>
               With <b>GoStack Bootcamp</b> I had my first deep dive into back-end development, where I learned how to make a full Restful API until deployment, using AWS.<br />

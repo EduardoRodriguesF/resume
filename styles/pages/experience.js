@@ -1,13 +1,22 @@
 import styled from 'styled-components';
 
-export const Content = styled.div`
-  max-width: 800px;
-  min-height: 60vh;
-  padding: 24px;
-  margin-top: 52px;
+export const Content = styled.ul`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 64px;
+  padding: 0;
 
-  section {  
-    & + section { 
+  ul { 
+    margin: 0;
+  }
+
+  @media screen and (max-width: 760px) {
+    display: block;
+  }
+
+  div {  
+    & + div { 
       margin-top: 86px;
     }
 
@@ -26,7 +35,7 @@ export const Content = styled.div`
 
       a {
         img {
-          min-width: 300px;
+          min-width: 250px;
         }
       }
     }

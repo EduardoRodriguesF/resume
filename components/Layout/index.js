@@ -7,7 +7,7 @@ import Footer from '../Footer';
 
 import { Content } from './styles';
 
-export default function Layout({ children }) {
+export default function Layout({ children, gray }) {
   return (
     <>
       <Head>
@@ -15,14 +15,14 @@ export default function Layout({ children }) {
         <meta name="description" content="Front-end developer" />
       </Head>
       <GlobalStyle />
-      <Content>
+      <Content gray={gray}>
         <Fade triggerOnce direction="left" cascade>
           {children}
         </Fade>
+        <Fade triggerOnce direction="left">
+          <Footer />
+        </Fade>
       </Content>
-      <Fade triggerOnce direction="up">
-        <Footer />
-      </Fade>
     </>
   );
 }

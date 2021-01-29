@@ -6,7 +6,6 @@ export const Container = styled.li`
   width: 5px;
   padding-top: 64px;
   background: ${({ done }) => done ? '#0070F3' : '#333'};
-
   &::after {
     content: '';
     position: absolute;
@@ -29,7 +28,7 @@ export const Container = styled.li`
     flex: 1;
     padding: 15px 32px;
     background: #fff;
-    border: 2px solid ${({ done }) => done ? '#0070F3' : '#333'};;
+    border: 2px solid ${({ done }) => done ? '#0070F3' : '#333'};
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
 

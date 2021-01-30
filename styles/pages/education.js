@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const Content = styled.div`
   display: flex;
-  width: 100vw;
   flex-direction: column;
   align-items: center;
   margin: 0 0 64px;
-  padding: 64px 24px 0;
+  padding: 64px 0;
 `;
 
 export const CardCourse = styled.div`

@@ -9,7 +9,7 @@ import { Content, CardCourse, CardCover, CardContent } from '../styles/pages/edu
 
 export default function Education() {
   return (
-    <Layout gray>
+    <Layout>
       <Content>
         <CardCourse>
           <CardCover>

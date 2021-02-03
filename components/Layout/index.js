@@ -16,7 +16,7 @@ export default function Layout({ children, gray }) {
       </Head>
       <GlobalStyle />
       <Content gray={gray}>
-        <Fade triggerOnce direction="left" cascade>
+        <Fade triggerOnce cascade duration="1000">
           {children}
         </Fade>
         <Fade triggerOnce direction="left">

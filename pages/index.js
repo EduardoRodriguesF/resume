@@ -2,9 +2,9 @@ import Layout from '../components/Layout';
 import Avatar from '../components/Avatar';
 import Card from '../components/Card';
 
-import { Header, Content, CardContainer } from '../styles/pages/home';
-
 const name = 'Eduardo Rodrigues';
+
+import { Header, Content, CardContainer } from '../styles/pages/home';
 
 export default function Home() {
   return (

@@ -4,7 +4,7 @@ import Card from '../components/Card';
 
 const name = 'Eduardo Rodrigues';
 
-import { Header, Content, CardContainer } from '../styles/pages/home.js';
+import { Header, Content, CardContainer } from '../styles/pages/home';
 
 export default function Home() {
   return (

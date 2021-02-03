@@ -11,27 +11,24 @@ export const Content = styled.ul`
     margin: 0;
   }
 
-  @media screen and (max-width: 760px) {
-    display: block;
-  }
-
-  div {  
+  div {      
     & + div { 
       margin-top: 86px;
     }
 
     h3 {
       font-weight: 400;
-      color: #555;
+      color: #888896;
 
       b {
-        color: #000;
+        color: #222;
       }
     }
 
     p {
       text-align: justify;
       margin-top: 12px;
+      color: #222;
 
       a {
         img {
@@ -39,5 +36,14 @@ export const Content = styled.ul`
         }
       }
     }
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 13px;
+  }
+
+  @media screen and (max-width: 760px) {
+    display: block;
+    font-size: 12px;
   }
 `;

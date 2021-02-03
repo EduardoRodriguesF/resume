@@ -6,6 +6,7 @@ export const Container = styled.li`
   width: 5px;
   padding-top: 64px;
   background: ${({ done }) => done ? '#0070F3' : '#333'};
+
   &::after {
     content: '';
     position: absolute;
@@ -29,15 +30,11 @@ export const Container = styled.li`
     padding: 15px 32px;
     background: #fff;
     border: 2px solid ${({ done }) => done ? '#0070F3' : '#333'};
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+    border-radius: 6px;
+
 
     h2 {
       font-size: 1.2rem;
-    }
-  
-    span {
-      color: #333;
     }
 
     p {

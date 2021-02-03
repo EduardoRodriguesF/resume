@@ -28,6 +28,7 @@ export const CardCover = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #fff;
+  border: 1px solid #eaeaea;
   position: absolute;
   margin-top: 28px;
   width: 92px;
@@ -56,6 +57,7 @@ export const CardContent = styled.div`
   width: 100%;
   border-radius: 16px;
   background-color: #fff;
+  border: 2px solid #eaeaea;
   padding: 32px;
   margin-left: 46px;
   text-align: justify;

@@ -57,9 +57,9 @@ export default function Education() {
           </CardCover>
           <CardContent>
             <h2>Information Systems (Bachelor)</h2>
-            <span><FiCalendar size={18} /> 2018 – 2019</span>
+            <span><FiCalendar size={18} /> 2021 – 2025</span>
             <p>
-              Starting on February 3, I will be studying at <b>Unisanta</b> University.
+              Studying at <b>Unisanta</b> University since February.
             </p>
           </CardContent>
         </CardCourse>

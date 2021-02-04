@@ -22,7 +22,7 @@ export const Header = styled.header`
   }
 
   p {
-    color: #555;
+    color: #888896;
   }
 `;
 

@@ -1,5 +1,4 @@
 import Layout from '../components/Layout';
-import Avatar from '../components/Avatar';
 import Image from 'next/image';
 import Card from '../components/Card';
 

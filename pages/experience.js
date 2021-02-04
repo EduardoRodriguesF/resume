@@ -12,7 +12,7 @@ export default function Experience() {
   return (
     <Layout>
       <Content>
-        <TimePassage done>
+        <TimePassage key={1} done>
           <Image width="240" height="43" src="/liveu.webp" alt="Live University" />
           <h3><b>Freelance • </b>March 2019 – April 2019</h3>
           <p>
@@ -21,7 +21,7 @@ export default function Experience() {
             HTML and searching a library to handle its transpilation to PDF.
           </p>
         </TimePassage>
-        <TimePassage done>
+        <TimePassage key={2} done>
           <Image width="142" height="90" src="/firstrocket.svg" alt="First Rocket" />
           <h3><b>Mega Hack 5.0 • </b>November 2020</h3>
           <p>

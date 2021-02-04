@@ -14,4 +14,8 @@ export const Container = styled.div`
     transform: translateY(-2px);
     box-shadow: 0 2px 6px -4px #0070f3;
   }
+
+  p {
+    color: #888896;
+  }
 `;

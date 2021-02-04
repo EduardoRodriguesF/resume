@@ -1,5 +1,6 @@
 import Layout from '../components/Layout';
 import Avatar from '../components/Avatar';
+import Image from 'next/image';
 import Card from '../components/Card';
 
 const name = 'Eduardo Rodrigues';
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <Layout>
       <Header>
-        <Avatar />
+        <Image src="/me.jpeg" alt="me" width="200" height="200" />
         <h1>{name}</h1>
         <p>Front-end developer</p>
       </Header>

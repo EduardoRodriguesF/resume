@@ -6,6 +6,13 @@ export const Header = styled.header`
   align-items: center;
   padding: 24px 24px 0;
 
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+  }
+
   h1 {
     margin-top: 14px;
 

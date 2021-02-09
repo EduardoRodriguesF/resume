@@ -36,6 +36,10 @@ export const TagContainer = styled.div`
   margin-top: 12px;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 470px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Tag = styled.span`
@@ -46,7 +50,13 @@ export const Tag = styled.span`
   padding: 4px 10px;
   white-space: nowrap;
 
-  & + span {
-    margin-left: 12px;
+  @media screen and (min-width: 471px) {
+    & + span {
+      margin-left: 12px;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    margin: 6px;
   }
 `;

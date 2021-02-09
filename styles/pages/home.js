@@ -63,6 +63,7 @@ export const CardContainer = styled.div`
 export const ProjectsContainer = styled.div`
   max-width: 800px;
   margin: 1.4rem 0 3rem;
+  padding: 0 12px;
 `;
 
 export const ProjectsHeader = styled.div`

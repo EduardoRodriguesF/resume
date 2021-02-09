@@ -39,11 +39,11 @@ export const TagContainer = styled.div`
 export const Tag = styled.span`
   font-size: 12px;
   color: #0070f3;
-  border: 1px solid #0070f3;
+  background-color: #def;
   border-radius: 100px;
-  padding: 4px 8px;
+  padding: 4px 10px;
 
   & + span {
-    margin-left: 5px;
+    margin-left: 6px;
   }
 `;

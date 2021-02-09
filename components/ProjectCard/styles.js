@@ -11,14 +11,18 @@ export const Container = styled.a`
 
   &:hover {
     border-color: #0070f3;
-    color: #0070f3;
     transform: translateY(-2px);
     box-shadow: 0 2px 6px -4px #0070f3;
     text-decoration: none;
+
+    h3 {
+      color: #0070f3;
+    }
   }
 
   h3 {
     color: #222;
+    transition: color 0.3s;
   }
 
   p {

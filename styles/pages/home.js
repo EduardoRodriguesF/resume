@@ -59,3 +59,14 @@ export const CardContainer = styled.div`
     }
   }
 `;
+
+export const ProjectsContainer = styled.div`
+  max-width: 800px;
+  margin: 1.4rem 0 3rem;
+`;
+
+export const ProjectsHeader = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`;

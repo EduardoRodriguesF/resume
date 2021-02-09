@@ -36,7 +36,6 @@ export const TagContainer = styled.div`
   margin-top: 12px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 `;
 
 export const Tag = styled.span`
@@ -45,6 +44,7 @@ export const Tag = styled.span`
   background-color: #def;
   border-radius: 100px;
   padding: 4px 10px;
+  white-space: nowrap;
 
   & + span {
     margin-left: 12px;

@@ -27,6 +27,7 @@ export default function Home() {
           </ProjectsHeader>
           <CardContainer>
             <ProjectCard title="Calendar" description="Simple month calendar view" tags={['ReactJS', 'Redux', 'TypeScript', 'Styled Components']} to="https://calendar.eduardorodriguesf.vercel.app/" />
+            <ProjectCard title="Form Validation" description="Form validation using RegEx" tags={['CSS', 'JavaScript', 'RegEx']} to="https://codepen.io/eduaaado/pen/YzWZGjb" />
           </CardContainer>
         </ProjectsContainer>
       </Content>

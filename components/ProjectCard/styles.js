@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.a`
-  max-width: 400px;
+  max-width: 600px;
   border: 1px solid #eaeaea;
   border-radius: 12px;
   padding: 18px 24px 22px;
@@ -34,6 +34,9 @@ export const Container = styled.a`
 export const TagContainer = styled.div`
   width: 100%;
   margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const Tag = styled.span`
@@ -44,6 +47,6 @@ export const Tag = styled.span`
   padding: 4px 10px;
 
   & + span {
-    margin-left: 6px;
+    margin-left: 12px;
   }
 `;

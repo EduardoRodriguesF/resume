@@ -34,26 +34,26 @@ export const Content = styled.div`
 `;
 
 export const CardContainer = styled.div`
-  max-width: 800px;
+  max-width: 1000px;
   margin: 1.4rem 0 3rem;
   display: flex;
   flex-wrap: wrap;
   align-items: space-between;
   justify-content: space-between;
 
-  div {
-    flex: 1 1 45%;
+  div, a {
+    flex: 1 1 30%;
     height: auto;
   }
 
-  div + div {
+  div + div, a + a {
     margin-left: 12px;
   }
 
   @media (max-width: 760px) {
     flex-direction: column;
 
-    div + div {
+    div + div, a + a  {
       margin-left: 0;
       margin-top: 12px;
     }
@@ -63,6 +63,7 @@ export const CardContainer = styled.div`
 export const ProjectsContainer = styled.div`
   max-width: 800px;
   margin: 1.4rem 0 3rem;
+  padding: 0 12px;
 `;
 
 export const ProjectsHeader = styled.div`

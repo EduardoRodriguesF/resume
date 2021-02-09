@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.a`
-  max-width: 400px;
+  max-width: 600px;
   border: 1px solid #eaeaea;
   border-radius: 12px;
   padding: 18px 24px 22px;
@@ -34,16 +34,29 @@ export const Container = styled.a`
 export const TagContainer = styled.div`
   width: 100%;
   margin-top: 12px;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 470px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Tag = styled.span`
   font-size: 12px;
   color: #0070f3;
-  border: 1px solid #0070f3;
+  background-color: #def;
   border-radius: 100px;
-  padding: 4px 8px;
+  padding: 4px 10px;
+  white-space: nowrap;
 
-  & + span {
-    margin-left: 5px;
+  @media screen and (min-width: 471px) {
+    & + span {
+      margin-left: 12px;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    margin: 6px;
   }
 `;

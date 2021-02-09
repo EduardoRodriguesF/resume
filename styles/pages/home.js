@@ -22,7 +22,7 @@ export const Header = styled.header`
   }
 
   p {
-    color: #888896;
+    color: #696972;
   }
 `;
 
@@ -58,4 +58,15 @@ export const CardContainer = styled.div`
       margin-top: 12px;
     }
   }
+`;
+
+export const ProjectsContainer = styled.div`
+  max-width: 800px;
+  margin: 1.4rem 0 3rem;
+`;
+
+export const ProjectsHeader = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
 `;

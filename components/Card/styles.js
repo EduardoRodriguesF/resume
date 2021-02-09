@@ -16,6 +16,7 @@ export const Container = styled.div`
   }
 
   p {
-    color: #888896;
+    color: #696972;
+    font-size: 16px;
   }
 `;

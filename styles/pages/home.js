@@ -46,14 +46,14 @@ export const CardContainer = styled.div`
     height: auto;
   }
 
-  div + div, a + a {
+  div + div {
     margin-left: 12px;
   }
 
   @media (max-width: 760px) {
     flex-direction: column;
 
-    div + div, a + a  {
+    div + div  {
       margin-left: 0;
       margin-top: 12px;
     }
@@ -64,6 +64,10 @@ export const ProjectsContainer = styled.div`
   max-width: 800px;
   margin: 1.4rem 0 3rem;
   padding: 0 12px;
+
+  a {
+    margin: 6px 6px;
+  }
 `;
 
 export const ProjectsHeader = styled.div`

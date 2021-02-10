@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 import Layout from '../components/Layout';
-import GoBackButton from '../components/GoBackButton';
 import TimePassage from '../components/TimePassage';
 
 import { Content } from '../styles/pages/experience';

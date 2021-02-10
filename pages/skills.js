@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import GoBackButton from '../components/GoBackButton';
 import PercentageBar from '../components/PercentageBar';
 
 import { Container, Content, Skillset } from '../styles/pages/skills';

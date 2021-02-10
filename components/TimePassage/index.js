@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
 
 import { Container } from './styles';

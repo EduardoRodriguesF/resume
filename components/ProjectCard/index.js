@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Container, TagContainer, Tag } from './styles';
 
 export default function Card({ title, description, tags, to }) {

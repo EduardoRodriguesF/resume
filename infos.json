@@ -16,6 +16,12 @@
       "description": "Form validation using RegEx",
       "tags": ["CSS", "JavaScript", "RegEx"],
       "link": "https://codepen.io/eduaaado/pen/YzWZGjb"
+    },
+    {
+      "title": "e.learning",
+      "description": "Education app that offers courses in video format.",
+      "tags": ["TypeScript", "React Native", "Axios", "JSON server"],
+      "link": "https://github.com/EduardoRodriguesF/e-learning"
     }
   ],
   "team": [

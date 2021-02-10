@@ -5,6 +5,8 @@ import ProjectCard from '../components/ProjectCard';
 
 const name = 'Eduardo Rodrigues';
 
+import { projects } from '../infos.json';
+
 import { Header, Content, CardContainer, ProjectsContainer, ProjectsHeader } from '../styles/pages/home';
 
 export default function Home() {
@@ -26,8 +28,7 @@ export default function Home() {
             <h2>Projects</h2>
           </ProjectsHeader>
           <CardContainer>
-            <ProjectCard title="Calendar" description="Simple month calendar view" tags={['ReactJS', 'Redux', 'TypeScript', 'Styled Components']} to="https://calendar.eduardorodriguesf.vercel.app/" />
-            <ProjectCard title="Form Validation" description="Form validation using RegEx" tags={['CSS', 'JavaScript', 'RegEx']} to="https://codepen.io/eduaaado/pen/YzWZGjb" />
+            {projects.map(p => <ProjectCard title={p.title} description={p.description} tags={p.tags} to={p.link} />)}
           </CardContainer>
         </ProjectsContainer>
       </Content>

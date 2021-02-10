@@ -4,6 +4,20 @@
     "linkedin": "https://www.linkedin.com/in/eduardo-rodrigues-4b3624190/",
     "email": "contato@edurodrigues.dev"
   },
+  "projects": [
+    {
+      "title": "Calendar",
+      "description": "Simple month calendar view",
+      "tags": ["TypeScript", "ReactJS", "Redux", "Styled Components"],
+      "link": "https://calendar.eduardorodriguesf.vercel.app/"
+    },
+    {
+      "title": "Form Validation",
+      "description": "Form validation using RegEx",
+      "tags": ["CSS", "JavaScript", "RegEx"],
+      "link": "https://codepen.io/eduaaado/pen/YzWZGjb"
+    }
+  ],
   "team": [
     {
       "name": "Luís Ferrari",

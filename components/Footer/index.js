@@ -10,9 +10,9 @@ export default function Footer() {
   return (
     <Container>
       <div>
-        <a href={links.github}><AiFillGithub size={32} color="#222" /></a>
-        <a href={links.linkedin}><AiFillLinkedin size={32} color="#222" /></a>
-        <a href={links.itchio}><FaItchIo size={32} color="#222" /></a>
+        <a target="_blank" href={links.github}><AiFillGithub size={32} color="#222" /></a>
+        <a target="_blank" href={links.linkedin}><AiFillLinkedin size={32} color="#222" /></a>
+        <a target="_blank" href={links.itchio}><FaItchIo size={32} color="#222" /></a>
       </div>
       <a href={mailto}>{links.email}</a>
     </Container>

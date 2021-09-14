@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Layout>
       <Header>
-        <Image src="/me.jpeg" alt="me" width="200" height="200" />
+        <Image src="/me.jpg" alt="me" width="200" height="200" />
         <h1>{name}</h1>
         <p>Front-end developer</p>
       </Header>

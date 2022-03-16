@@ -7,6 +7,18 @@
   },
   "projects": [
     {
+      "title": "Pomodoro",
+      "description": "Productivity web application",
+      "tags": ["TypeScript", "ReactJS", "Styled Components"],
+      "link": "https://pomodoro.edurodrigues.dev"
+    },
+    {
+      "title": "Pokedex",
+      "description": "Pokemon entries on web",
+      "tags": ["TypeScript", "ReactJS", "Styled Components", "PokeAPI"],
+      "link": "https://pokedex.edurodrigues.dev"
+    },
+    {
       "title": "Calendar",
       "description": "Simple month calendar view",
       "tags": ["TypeScript", "ReactJS", "Redux", "Styled Components"],
